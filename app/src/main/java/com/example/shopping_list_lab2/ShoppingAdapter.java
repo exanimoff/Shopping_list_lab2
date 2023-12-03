@@ -26,7 +26,6 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingAdapter.ViewHo
             itemNameTextView = itemView.findViewById(R.id.itemNameTextView);
             itemCheckBox = itemView.findViewById(R.id.itemCheckBox);
 
-            // Добавим обработчик долгого нажатия на элемент
             itemView.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View v) {
